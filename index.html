@@ -1,0 +1,140 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webovio</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+        
+    <div class="block1">
+        <ol class="Head__HotBar">
+            <li class="logo__head"><img src="/img/logo.svg"></li>
+            <li class="Head__HotBar__MenuButton"><img src="/img/Block1/MenuButton.png"></li>
+        </ol>
+        <h2 class="block1_head1">A place where</h2>
+        <h1 class="block1_head2">A creative agency for redemptive brands</h1>
+        <p class="block1_text">Anteelo is a leading strategic design firm that builds powerful digital solutions for startups and enterprises.</p>
+        <a class="block1_link"><img src="/img/Block1/GetInIouch_Button.png"></a>
+    </div>
+
+    <div class="block2">
+        <div class="block2__content">
+            <h2 class="block2__head">Deation & Evaluation - Best Way to Kick off Your Product Idea</h2>
+            <ol class="block2__services">
+                <ol class="block2__services__box">
+                    <li class="block2__services__head">Product Design Sprint</li>
+                    <li class="block2__services__description">A five-day workshop that will help you answer crucial business questions</li>
+                    <li class="block2__services__ReadMore"><a></a></li>
+                </ol>
+                <ol class="block2__services__box">
+                    <li class="block2__services__head">Scoping Session</li>
+                    <li class="block2__services__description">A workshop aimed at shaping your business idea, answering questions regarding project planning</li>
+                    <li class="block2__services__ReadMore"><a></a></li>
+                </ol>
+                <ol class="block2__services__box">
+                    <li class="block2__services__head">UX Review</li>
+                    <li class="block2__services__description">An evaluation which will help you radically improve your product.</li>
+                    <li class="block2__services__ReadMore"><a></a></li>
+                </ol>
+                <ol class="block2__services__box">
+                    <li class="block2__services__head">Code Review</li>
+                    <li class="block2__services__description">Do you know what one of the key secrets of success is what makes people successful in business</li>
+                    <li class="block2__services__ReadMore"><a></a></li>
+                </ol>
+            </ol>
+        </div>
+    </div>
+
+    <div class="block3">
+        <h2 class="block3_text">Let’s make something amazing together.</h2>
+        <a class="block3_link "><img src="/img/Block3/LetsGetStarted.png"></a>
+    </div>
+
+    <div class="block4">
+        <div class="block4__content">
+            <ol class="block4__PhoneAndAddress">
+                <ol class="block4__phone">
+                    <li class="block4__phone__head">Phone</li>
+                    <li class="block4__phone__description">+32 50 31 28 32</li>
+                </ol>
+                <ol class="block4__address">
+                    <li class="block4__address__head">Address</li>
+                    <li class="block4__address__description"> 491 Merlin Crest Suite 963</li>
+                </ol>
+            </ol>
+            <div class="block4__lines__h"></div>
+            <ol class="block4__links">
+                <ol class="block4__services">
+                    <li class="block4__services__head">Services</li>
+                    <li class="block4__services__description"><a>Strategy Design</a></li>
+                    <li class="block4__services__description"><a>Product Design</a></li>
+                    <li class="block4__services__description"><a>Content Strategy</a></li>
+                    <li class="block4__services__description"><a>Brand Strategy</a></li>
+                    <li class="block4__services__description"><a>Development</a></li>
+                </ol>
+                <ol class="block4__help">
+                    <li class="block4__help__head">Help And Advice</li>
+                    <li class="block4__help__description"><a>How it works</a></li>
+                    <li class="block4__help__description"><a>Contact Support</a></li>
+                    <li class="block4__help__description"><a>Privacy Policy</a></li>
+                    <li class="block4__help__description"><a>FAQ</a></li>
+                </ol>
+                <ol class="block4__company">
+                    <li class="block4__company__head">Company</li>
+                    <li class="block4__company__description"><a>About</a></li>
+                    <li class="block4__company__description"><a>Blog</a></li>
+                    <li class="block4__company__description"><a>Contact</a></li>
+                    <li class="block4__company__description"><a>Jobs</a></li>
+                </ol>
+                <div class="block4__lines__v"></div>
+                <ol class="block4__GetInTouch">
+                    <li class="block4__GetInTouch__head">Get in Touch</li>
+                    <li class="block4__GetInTouch__description">Feel free to get in touch with us vai email</li>
+                    <li class="block4__GetInTouch__mail">info.webovio@gmail.com</li>
+                    <li class="block4__GetInTouch__media"><a href="https://steamcommunity.com/id/skibidi_unitaz"></a></li>
+                </ol>
+            </ol>
+            <div class="block4__lines__h2"></div>
+            <ol class="end">
+                <article class="logo__">
+                    <img src="img/logo.svg">
+                </article>
+                <div class="PolicyData">© 2025@webovio. All Rights Reserved.</div>
+            </ol>
+        </div>
+    </div>
+
+
+    <script>
+    const slides = document.getElementById('slides');
+    const slideCount = slides.children.length;
+    let currentIndex = 1;
+    const slideWidth = 1440;
+
+    function showSlide(index) {
+        currentIndex = index;
+        if(currentIndex = 1){
+            block1.style.backgroundImage = "url(/img/Block1/monke.jpeg)"
+        }
+    }
+
+    document.setInterval(() => {
+        currentIndex = currentIndex + 1
+        if(currentIndex > 3){
+        currentIndex = -1
+        showSlide(0)
+        }
+        showSlide(currentIndex);
+    }, 1000);
+        
+    showSlide(0);
+
+    </script>
+</body>
+</html>
