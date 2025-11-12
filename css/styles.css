@@ -259,7 +259,7 @@ body{
     padding-left: 148px;
     width: 1280px;
     height: 777px;
-    background-image: url(./img/Block1/Bitmap.png);
+    background-image: url(../img/Block1/Bitmap.png);
     background-repeat: no-repeat;
 }
 
@@ -330,3 +330,4 @@ body{
     height:24px;
 
 }
+
