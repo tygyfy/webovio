@@ -1,0 +1,331 @@
+body{
+    width: 1440px;
+    margin: 0 auto;
+}
+.block2{
+    width: 1440px;
+    height: 755px;
+}
+.block2__content{
+    padding-top: 149px;
+    margin-left: 166px;
+}
+.block2__head{
+    width: 607px;
+    line-height: 46px;
+    color: #4D533C;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0px;
+}
+.block2__services{
+    padding: 0;
+    margin-top: 60px;
+    display: flex;
+    list-style-type: none;
+}
+.block2__services__box{
+    width: 255px;
+    height: 309px;
+    list-style-type: none;
+    padding: 0;
+    margin-right: 30px;
+}
+.block2__services__head{
+    padding: 0;
+    width: 183px;
+    height: 68px;
+    color: #4D533C;
+    line-height: 34px;
+    font-size: 34px;
+    font-weight: medium;
+    margin-bottom: 20px;
+    margin-top: 27px;
+    margin-left: 30px;
+}
+.block2__services__description{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 194px;
+    height: 104px;
+    line-height: 26px;
+    font-size: 14px;
+    font-weight: default;
+    color: #2138428c;
+}
+.block2__services__ReadMore{
+    overflow: visible;
+    margin-left: 30px;
+    width: 102px;
+    height: 24px;
+    background-image: url(/img/Block2/ReadMoreGray.png);
+    background-repeat: no-repeat;
+    color: #00000000
+}
+.block2__services__ReadMore:hover{
+    background-image: url(/img/Block2/ReadMoreYellow.png);
+}
+
+
+.block4{
+    width: 1440px;
+    height: 730px;
+    fill: #4f553d;
+    background: url(/img/Block4/background_block4.png);
+    background-repeat: none;
+    background-position-y: -190px;
+}
+.block4__content{
+    width: 1111px;
+    height: 580px;
+    padding-top: 111px;
+    margin-left: 150px;
+}
+.block4__PhoneAndAddress{
+    padding: 0;
+    display: flex;
+    width: 452px;
+    height: 88px;
+}
+.block4__phone{
+    padding: 0;
+    list-style: none;
+}
+.block4__phone__head{
+    line-height: 40px;
+    margin-bottom: 8px;
+    margin-right: 68px;
+    width: 178px;
+    font-size: 16px;
+    font-weight: default;
+    color: #b6c197
+}
+.block4__phone__description{
+    line-height: 40px;
+    width: 178px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.block4__address{
+    padding: 0;
+    list-style: none;
+}
+.block4__address__head{
+    line-height: 40px;
+    width: 208px;
+    margin-bottom: 8px;
+    margin-right: 128px;
+    font-size: 16px;
+    font-weight: default;
+    color: #b6c197
+}
+.block4__address__description{
+    line-height: 40px;
+    width: 208px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.block4__links{
+    display:flex;
+    padding: 0;
+}
+.block4__lines__h{
+    margin-top: 52px;
+    margin-bottom: 60px;
+    width: 1110px;
+    height: 1px;
+    background-image: url(/img/Block4/line_h.png);
+    color: #5d6544;
+    fill: #5d6544;
+}
+.block4__services{
+    padding: 0;
+    list-style: none;
+    width: 167px;
+    height: 259px;
+    margin-right: 70px;
+}
+.block4__services__head{
+    margin-bottom: 21px;
+    color: #FFFFFF;
+    line-height: 38px;
+    font-size: 16px;
+}
+.block4__services__description{
+    color: #b6c197;
+    line-height: 40px;
+    font-size: 16px;
+}
+.block4__help{
+    padding: 0;
+    list-style: none;
+    width: 160px;
+    margin-right: 100px;
+}
+.block4__help__head{
+    margin-bottom: 21px;
+    color: #FFFFFF;
+    line-height: 38px;
+    font-size: 16px;
+}
+.block4__help__description{
+    color: #b6c197;
+    line-height: 40px;
+    font-size: 16px;
+}
+.block4__company{
+    padding: 0;
+    list-style: none;
+    width: 167px;
+    margin-right: 13px;
+}
+.block4__company__head{
+    margin-bottom: 21px;
+    color: #FFFFFF;
+    line-height: 38px;
+    font-size: 16px;
+}
+.block4__company__description{
+    color: #b6c197;
+    line-height: 40px;
+    font-size: 16px;
+}
+.block4__lines__v{
+    width: 1px;
+    height: 210px;
+    background-image: url(/img/Block4/line_v.png);
+    margin-right: 110px;
+}
+.block4__GetInTouch{
+    list-style: none;
+}
+.block4__GetInTouch__head{
+    color: #FFFFFF;
+    line-height: 38px;
+    font-size: 16px;
+    margin-bottom: 23px;
+}
+.block4__GetInTouch__description{
+    width: 270px;
+    color: #b6c197;
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 23px;
+}
+.block4__GetInTouch__mail{
+    color: #FFFFFF;
+    line-height: 38px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.block4__GetInTouch__media{
+    width: 180px;
+    height: 34px;
+    background-image: url(/img/Block4/Google_Facebook.png);
+    background-repeat: no-repeat;
+    color: #00000000;
+    overflow: visible;
+}
+.block4__lines__h2{
+    margin-top: 60px;
+    margin-bottom: 24px;
+    width: 1110px;
+    height: 1px;
+    background-image: url(/img/Block4/line_h.png);
+    color: #5d6544;
+    fill: #5d6544;
+}
+.end{
+    display: flex;
+    padding: 0;
+}
+.logo__{
+    padding: 0;
+}
+.PolicyData{
+    padding-top: 8px;
+    color: #B5C096;
+    font-size: 14px;
+    margin-left: 621px;
+    width: 263px;
+    height: 23px;
+}
+
+.block1{
+    padding-top: 34px;
+    padding-left: 148px;
+    width: 1280px;
+    height: 777px;
+    background-image: url(/img/Block1/Bitmap.png);
+    background-repeat: no-repeat;
+}
+
+.Head__HotBar{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 107px;
+}
+
+.Head__HotBar__MenuButton{
+    margin-left: 816px;
+    margin-top: 3px;
+    width: 40px;
+    height: 40px;
+}
+
+.block1_head1{
+    width: 96.6px;
+    height: 21px;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin: 0px;
+    margin-left: 12px;
+}
+.block1_head2{
+    width: 595.05px;
+    height: 217.89px;
+    color: #FFFFFF;
+    line-height: 74px;
+    font-size: 60px;
+    margin-bottom: 24px;
+    margin-top: 0px;
+    margin-left: 12px;
+}
+.block1_text{
+    width: 561.24px;
+    height: 53.98px;
+    color: #FFFFFF;
+    margin-bottom: 47px;
+    margin-top: 0px;
+    line-height: 26px;
+    font-size: 16px;
+    margin-left: 12px;
+}
+.block1_link{
+    width:114px;
+    height: 24px;
+    margin-left: 12px;
+}
+
+.block3{
+    width: 1111px;
+    height: 292px;
+    color: #FAFAFA;
+    padding: 70px 0px 0px 164px;
+}
+.block3_text{
+    height: 148px;
+    width: 822px;
+    color:#4D533C;
+    font-size: 60px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+.block3_link{
+    width:162px;
+    height:24px;
+}
