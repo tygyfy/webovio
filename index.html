@@ -109,7 +109,29 @@
             </ol>
         </div>
     </div>
+
+    <form action="display.php" method="post" enctype="multipart/form-data">
+        <label>ФИО: <input type="text" name="fullname" required></label><br><br>
+        <label>Пароль: <input type="password" name="password" required></label><br><br>
+        <button type="submit">Отправить</button>
+    </form>
+
+    <script>
+        const bitmap = document.getElementById("bitmapper");
+        let count = 1;
+
+        document.getElementById('toggle').addEventListener('click', () => {
+            count += 1;
+            if(count % 2 == 0){
+                bitmap.style.backgroundImage = "url('/img/Block1/monke.jpg')";
+            }
+            if(count % 2 != 0){
+                bitmap.style.backgroundImage = "url(/img/Block1/Bitmap.png)";
+            }
+        });
+    </script>
 </body>
 
 </html>
+
 
