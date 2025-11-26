@@ -58,20 +58,19 @@ body{
     margin-left: 30px;
     width: 102px;
     height: 24px;
-    background-image: url(../img/Block2/ReadMoreGray.png);
+    background-image: url(/img/Block2/ReadMoreGray.png);
     background-repeat: no-repeat;
     color: #00000000
 }
 .block2__services__ReadMore:hover{
-    background-image: url(../img/Block2/ReadMoreYellow.png);
+    background-image: url(/img/Block2/ReadMoreYellow.png);
 }
-
 
 .block4{
     width: 1440px;
     height: 730px;
     fill: #4f553d;
-    background: url(../img/Block4/background_block4.png);
+    background: url(/img/Block4/background_block4.png);
     background-repeat: none;
     background-position-y: -190px;
 }
@@ -136,7 +135,7 @@ body{
     margin-bottom: 60px;
     width: 1110px;
     height: 1px;
-    background-image: url(../img/Block4/line_h.png);
+    background-image: url(/img/Block4/line_h.png);
     color: #5d6544;
     fill: #5d6544;
 }
@@ -195,7 +194,7 @@ body{
 .block4__lines__v{
     width: 1px;
     height: 210px;
-    background-image: url(../img/Block4/line_v.png);
+    background-image: url(/img/Block4/line_v.png);
     margin-right: 110px;
 }
 .block4__GetInTouch{
@@ -224,7 +223,7 @@ body{
 .block4__GetInTouch__media{
     width: 180px;
     height: 34px;
-    background-image: url(../img/Block4/Google_Facebook.png);
+    background-image: url(/img/Block4/Google_Facebook.png);
     background-repeat: no-repeat;
     color: #00000000;
     overflow: visible;
@@ -234,7 +233,7 @@ body{
     margin-bottom: 24px;
     width: 1110px;
     height: 1px;
-    background-image: url(../img/Block4/line_h.png);
+    background-image: url(/img/Block4/line_h.png);
     color: #5d6544;
     fill: #5d6544;
 }
@@ -254,12 +253,12 @@ body{
     height: 23px;
 }
 
-.block1{
+#bitmapper{
     padding-top: 34px;
     padding-left: 148px;
     width: 1280px;
     height: 777px;
-    background-image: url(../img/Block1/Bitmap.png);
+    background-image: url(/img/Block1/Bitmap.png);
     background-repeat: no-repeat;
 }
 
@@ -328,7 +327,9 @@ body{
 .block3_link{
     width:162px;
     height:24px;
-
 }
 
-
+#toggle{
+    width: 100px;
+    height: 35px;
+}
