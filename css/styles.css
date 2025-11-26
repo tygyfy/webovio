@@ -194,7 +194,7 @@ body{
 .block4__lines__v{
     width: 1px;
     height: 210px;
-    background-image: url(..img/Block4/line_v.png);
+    background-image: url(../img/Block4/line_v.png);
     margin-right: 110px;
 }
 .block4__GetInTouch{
@@ -332,5 +332,4 @@ body{
 #toggle{
     width: 100px;
     height: 35px;
-
 }
