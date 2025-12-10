@@ -308,6 +308,8 @@ body{
     width:114px;
     height: 24px;
     margin-left: 12px;
+    background-color: #00000000;
+    border-style: none;
 }
 
 .block3{
