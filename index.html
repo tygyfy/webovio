@@ -14,12 +14,12 @@
     <div class="block1"  id="bitmapper">
         <ol class="Head__HotBar">
             <li class="logo__head"><img src="img/logo.svg"></li>
-            <li class="Head__HotBar__MenuButton"><img src="../img/Block1/MenuButton.png"></li>
+            <li class="Head__HotBar__MenuButton"><img src="img/Block1/MenuButton.png"></li>
         </ol>
         <h2 class="block1_head1">A place where</h2>
         <h1 class="block1_head2">A creative agency for redemptive brands</h1>
         <p class="block1_text">Anteelo is a leading strategic design firm that builds powerful digital solutions for startups and enterprises.</p>
-        <button class="block1_link" id="toggle"><img src="../img/Block1/GetInIouch_Button.png"></button>
+        <button class="block1_link" id="toggle"><img src="img/Block1/GetInIouch_Button.png"></button>
     </div>
 
     <div class="block2">
@@ -52,7 +52,7 @@
 
     <div class="block3">
         <h2 class="block3_text">Let’s make something amazing together.</h2>
-        <a class="block3_link "><img src="../img/Block3/LetsGetStarted.png"></a>
+        <a class="block3_link "><img src="img/Block3/LetsGetStarted.png"></a>
     </div>
 
     <div class="block4">
@@ -102,7 +102,7 @@
             <div class="block4__lines__h2"></div>
             <ol class="end">
                 <article class="logo__">
-                    <img src="../img/logo.svg">
+                    <img src="img/logo.svg">
                 </article>
                 <div class="PolicyData">© 2025@webovio. All Rights Reserved.</div>
             </ol>
@@ -116,16 +116,17 @@
         document.getElementById('toggle').addEventListener('click', () => {
             count += 1;
             if(count % 2 == 0){
-                bitmap.style.backgroundImage = "url('../img/Block1/monke.jpg')";
+                bitmap.style.backgroundImage = "url('img/Block1/monke.jpg')";
             }
             if(count % 2 != 0){
-                bitmap.style.backgroundImage = "url('../img/Block1/Bitmap.png')";
+                bitmap.style.backgroundImage = "url('img/Block1/Bitmap.png')";
             }
         });
     </script>
 </body>
 
 </html>
+
 
 
 
