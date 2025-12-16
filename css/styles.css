@@ -2,14 +2,17 @@ body{
     width: 1440px;
     margin: 0 auto;
 }
+
 .block2{
     width: 1440px;
     height: 755px;
 }
+
 .block2__content{
     padding-top: 149px;
     margin-left: 166px;
 }
+
 .block2__head{
     width: 607px;
     line-height: 46px;
@@ -18,12 +21,14 @@ body{
     font-weight: bold;
     margin: 0px;
 }
+
 .block2__services{
     padding: 0;
     margin-top: 60px;
     display: flex;
     list-style-type: none;
 }
+
 .block2__services__box{
     width: 255px;
     height: 309px;
@@ -31,6 +36,7 @@ body{
     padding: 0;
     margin-right: 30px;
 }
+
 .block2__services__head{
     padding: 0;
     width: 183px;
@@ -43,6 +49,7 @@ body{
     margin-top: 27px;
     margin-left: 30px;
 }
+
 .block2__services__description{
     margin-left: 30px;
     margin-bottom: 30px;
@@ -53,6 +60,7 @@ body{
     font-weight: default;
     color: #2138428c;
 }
+
 .block2__services__ReadMore{
     overflow: visible;
     margin-left: 30px;
@@ -62,6 +70,7 @@ body{
     background-repeat: no-repeat;
     color: #00000000
 }
+
 .block2__services__ReadMore:hover{
     background-image: url(../img/Block2/ReadMoreYellow.png);
 }
@@ -74,22 +83,26 @@ body{
     background-repeat: none;
     background-position-y: -190px;
 }
+
 .block4__content{
     width: 1111px;
     height: 580px;
     padding-top: 111px;
     margin-left: 150px;
 }
+
 .block4__PhoneAndAddress{
     padding: 0;
     display: flex;
     width: 452px;
     height: 88px;
 }
+
 .block4__phone{
     padding: 0;
     list-style: none;
 }
+
 .block4__phone__head{
     line-height: 40px;
     margin-bottom: 8px;
@@ -99,6 +112,7 @@ body{
     font-weight: default;
     color: #b6c197
 }
+
 .block4__phone__description{
     line-height: 40px;
     width: 178px;
@@ -106,10 +120,12 @@ body{
     font-weight: bold;
     color: #FFFFFF;
 }
+
 .block4__address{
     padding: 0;
     list-style: none;
 }
+
 .block4__address__head{
     line-height: 40px;
     width: 208px;
@@ -119,6 +135,7 @@ body{
     font-weight: default;
     color: #b6c197
 }
+
 .block4__address__description{
     line-height: 40px;
     width: 208px;
@@ -126,10 +143,12 @@ body{
     font-weight: bold;
     color: #FFFFFF;
 }
+
 .block4__links{
     display:flex;
     padding: 0;
 }
+
 .block4__lines__h{
     margin-top: 52px;
     margin-bottom: 60px;
@@ -139,6 +158,7 @@ body{
     color: #5d6544;
     fill: #5d6544;
 }
+
 .block4__services{
     padding: 0;
     list-style: none;
@@ -146,66 +166,78 @@ body{
     height: 259px;
     margin-right: 70px;
 }
+
 .block4__services__head{
     margin-bottom: 21px;
     color: #FFFFFF;
     line-height: 38px;
     font-size: 16px;
 }
+
 .block4__services__description{
     color: #b6c197;
     line-height: 40px;
     font-size: 16px;
 }
+
 .block4__help{
     padding: 0;
     list-style: none;
     width: 160px;
     margin-right: 100px;
 }
+
 .block4__help__head{
     margin-bottom: 21px;
     color: #FFFFFF;
     line-height: 38px;
     font-size: 16px;
 }
+
 .block4__help__description{
     color: #b6c197;
     line-height: 40px;
     font-size: 16px;
 }
+
 .block4__company{
     padding: 0;
     list-style: none;
     width: 167px;
     margin-right: 13px;
 }
+
 .block4__company__head{
     margin-bottom: 21px;
     color: #FFFFFF;
     line-height: 38px;
     font-size: 16px;
 }
+
 .block4__company__description{
     color: #b6c197;
     line-height: 40px;
     font-size: 16px;
 }
+
 .block4__lines__v{
     width: 1px;
     height: 210px;
     background-image: url(../img/Block4/line_v.png);
     margin-right: 110px;
 }
+
 .block4__GetInTouch{
     list-style: none;
 }
+
 .block4__GetInTouch__head{
     color: #FFFFFF;
     line-height: 38px;
     font-size: 16px;
     margin-bottom: 23px;
 }
+
 .block4__GetInTouch__description{
     width: 270px;
     color: #b6c197;
@@ -213,6 +245,7 @@ body{
     font-size: 16px;
     margin-bottom: 23px;
 }
+
 .block4__GetInTouch__mail{
     color: #FFFFFF;
     line-height: 38px;
@@ -220,6 +253,7 @@ body{
     font-weight: bold;
     margin-bottom: 24px;
 }
+
 .block4__GetInTouch__media{
     width: 180px;
     height: 34px;
@@ -228,6 +262,7 @@ body{
     color: #00000000;
     overflow: visible;
 }
+
 .block4__lines__h2{
     margin-top: 60px;
     margin-bottom: 24px;
@@ -237,13 +272,16 @@ body{
     color: #5d6544;
     fill: #5d6544;
 }
+
 .end{
     display: flex;
     padding: 0;
 }
+
 .logo__{
     padding: 0;
 }
+
 .PolicyData{
     padding-top: 8px;
     color: #B5C096;
@@ -284,6 +322,7 @@ body{
     margin: 0px;
     margin-left: 12px;
 }
+
 .block1_head2{
     width: 595.05px;
     height: 217.89px;
@@ -294,6 +333,7 @@ body{
     margin-top: 0px;
     margin-left: 12px;
 }
+
 .block1_text{
     width: 561.24px;
     height: 53.98px;
@@ -304,6 +344,7 @@ body{
     font-size: 16px;
     margin-left: 12px;
 }
+
 .block1_link{
     width:114px;
     height: 24px;
@@ -318,6 +359,7 @@ body{
     color: #FAFAFA;
     padding: 70px 0px 0px 164px;
 }
+
 .block3_text{
     height: 148px;
     width: 822px;
@@ -326,6 +368,7 @@ body{
     margin-bottom: 50px;
     margin-top: 0px;
 }
+
 .block3_link{
     width:162px;
     height:24px;
